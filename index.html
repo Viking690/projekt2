@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Órarend</title>
+</head>
+<body>
+ 
+ 
+    <div class="main container-fluid d-flex justify-content-center">
+    
+        <div class="main-left">
+            <div class="navbar-left text-center">
+                <h1>Évfolyamok</h1>
+            </div>
+            <h2 class="intro-title">Bevezető:</h2>
+              <p class="intro-text">
+                Horváth Viktornak hívnak, 19 éves vagyok. A Bánki Donát Technikumban tanulok 5 éve. Voltak jobb, és rosszabb napok. Azért választottam ezt a szakot, mert érdekelt a programozás. Az első 4 évemben nagyon sokat kellett tanulni, hogy elég felkészült legyek az érettségire. Az érettségi vizsgát sikeresen teljesítettem, aminek nagyon örültem. Nyáron jött a nyári gyakorlat a Hankookba. Túl sok mindent nem csináltunk abba az egy hónapba, de amikor csináltunk valamit az nagyon hasznos volt. Megtanultunk még jobban PLC gépet programozni, ami nagy segítséget adott a 13. évben a PLC programozás tantárgyhoz. A 13. évben azt hittem, kicsit lazább év lesz, de gyorsan rá kellett jönni, hogy nem. A német érettségi és a szakmai vizsga miatt.
+              </p>
+            
+            <div class="circle-system d-flex justify-content-around">
+                <div class="circles-left">
+                    <div class="circles" onclick="osztaly11()">
+                        <h1>11. évfolyam</h1>
+                    </div>
+                    <div class="circles mt-5" onclick="osztaly13()">
+                        <h1>13. évfolyam</h1>
+                    </div>
+                </div>
+                <div class="middle-image mx4">
+                    <img src="banki.png" alt="Bánki Donát Technikum" class="img-fluid">
+                </div>
+                <div class="circles-right">
+                    <div class="circles" onclick="osztaly12()">
+                        <h1>12. évfolyam</h1>
+                    </div>
+                    <div class="circles mt-5" onclick="reflexio()">
+                        <h1>Önreflexió</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        <div class="main-right">
+            <div class="navbar-right text-center">
+                <h1>Tantárgyak</h1>
+            </div>
+            <div class="table-system">
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>11. évfolyam</td>
+                        <td>12. évfolyam</td>
+                        <td>13. évfolyam</td>
+                    </tr>
+                    <tr>
+                        <td>1. félév</td>
+                        <td>
+                            <ul>
+                                <li>Elektronika</li>
+                                <li>Mikrovezérlő Programozás</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Adatbáziskezelés alapjai</li>
+                                <li>Hálózatkezelés</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Munkavállalói idegen nyelven</li>
+                                <li>IoT</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2. félév</td>
+                        <td>
+                            <ul>
+                                <li>Programozás alapjai</li>
+                                <li>Digitális áramkörök</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>PLC programozás</li>
+                                <li>Számítógépes szimuláció</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Programfejlesztés</li>
+                                <li>Robottechnika CAD/CAM</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="style.js"></script>
+
+</body>
+</html>
